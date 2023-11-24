@@ -1,0 +1,24 @@
+{
+  "name": "patslookout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengp3/patslookout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengp3/patslookout/issues"
+  },
+  "homepage": "https://github.com/chengp3/patslookout#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.0.1",
+    "swup": "^4.4.4"
+  }
+}

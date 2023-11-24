@@ -1,0 +1,32 @@
+.transition-swipe {
+    transition: 250ms;
+    opacity: 1;
+}
+
+html.is-animating .transition-swipe {
+    opacity: 0;
+}
+
+html.is-leaving .transition-swipe {
+    opacity: 0;
+}
+
+.social-media-navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons as needed */
+  }
+  
+  .social-media-navbar li {
+    display: inline;
+  }
+  
+  .social-media-navbar a {
+    text-decoration: none;
+    color: inherit; /* Or set a specific color */
+  }
+  
+  .social-media-navbar i {
+    font-size: 24px; /* Adjust size as needed */
+  }

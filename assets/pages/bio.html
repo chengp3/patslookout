@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="../css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="flex flex-col items-center w-full mx-auto h-screen">
+        <div class="flex justify-center mt-10 mb-10 w-9/12" id="header">
+            <div class="flex flex-col justify-center items-center mr-16 custom-font text-5xl md:text-9xl">
+                <a href="./index.html">the lookout</a>
+            </div>
+            <div class="flex items-center" id="navbar-collapse">
+                <ul class="flex flex-col list-none">
+                    <li class="nav-item">
+                        <a href="./bio.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Bio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="assets/pages/photos.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="assets/pages/climbing.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Climbing</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+        <main id="swup" class="w-10/12 flex flex-col items-center transition-swipe">
+            <div class="flex flex-col w-10/12 items-center justify-center saturate-100 drop-shadow-2xl transition-swipe">
+                <div>
+                    <a href="https://www.wta.org/go-hiking/hikes/mailbox-peak"><img src="../images/mailbox.jpg" class="float-right saturate-100 drop-shadow-2xl w-1/4 mt-4 mx-5"
+                        alt="On a clear day..."
+                    ></a>
+                    <p class="mt-4 mb-4">My name is Patrick 👋🏻 I solve problems with software. 
+                        This website is part portfolio, part blog, and part workshop/lab where I host personal projects. 
+                        I was born in Austin, Texas, and then discovered a love for mountains; now I currently live in Portland, OR.</p>
+                    <p class="mt-4 mb-4">I began my developer journey building financial data pipelines for the SEC. During that 
+                        time I was also working on a few biomedical projects, including using machine learning
+                        to spot leukemia from flow cytometry data. Soon after, I broadened to web development. 
+                        I have been doing full stack development with <a href="https://www.galacticpolymath.com"><i>Galactic Polymath</i></a> 
+                        for the last couple years.
+                    </p>
+                    <p class="mt-4 mb-4">The picture to the right is from the summit of Mailbox Peak near Seattle, WA, 
+                        and inspired the domain name for this site. That's Mount Rainier in the distance!
+                    </p>
+                    <p class="mt-4 mb-4">Here are some hosted projects...</p>
+                </div>
+                <div class="w-full flex flex-col mt-12 p-4 rounded-lg bg-indigo-50">
+                    <div class="flex w-full justify-evenly mt-4 mb-8">
+                        <div class="h-80 w-60 mr-4">
+                            <a href="https://echo-ebon.vercel.app" class="flex flex-col items-center">
+                            <span class="text-lg text-center"><b>Echo Chambers</b></span>
+                            <img src="../images/social network.png">
+                            <span class="mt-2 text-xs text-center"><i>An interactive simulation exploring social media dynamics. 
+                                Traits like agreeableness, unfriending, and influenceability determine the makeup of these virtual social groups.
+                            </i></span>
+                            </a>
+                        </div>
+                        <div class="h-80 w-60">
+                            <a href="https://trendy-rho.vercel.app" class="flex flex-col items-center">
+                            <span class="text-lg text-center"><b>Trendy</b></span>
+                            <img src="../images/trendy-rho.png">
+                            <span class="mt-2 text-xs text-center"><i>A price trend analysis app/dashboard. I took one of 
+                                the algorithms I use to trade futures and made a little software flower out of it.
+                            </i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex w-full justify-evenly mt-6 mb-14">
+                        <div class="h-80 w-60 mr-8">
+                            <a href="https://echo-ebon.vercel.app" class="flex flex-col items-center">
+                            <span class="text-lg text-center"><b>Flow Cytometry</b></span>
+                            <img src="../images/flow.png">
+                            <span class="mt-2 text-xs text-center"><i>An article exploring machine learning (SVM) to diagnose blood cancer from flow cytometry readings.
+                                Medicine as a field seems to be ripe for machine learning...
+                            </i></span>
+                            </a>
+                        </div>
+                        <div class="flex flex-col items-center h-80 w-60 text-xs">
+                            <span class="text-lg text-center"><b>ClimbWise</b></span>
+                            <img src="../images/climbwise.png">
+                            <span class="mt-2 text-center"><i>Climbing and nerding out, what a combo. A personal climbing grade dashboard. This one was written in python and flask and might take me a sec to port</i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-16" id="footer">
+                <nav class="social-media-navbar"><ul>
+                    <li><a href="https://www.linkedin.com/in/swepat" target="_blank" class="flex flex-col items-center"><i class="fa fa-github mx-8"></i><span class="text-xs mt-2">git</span></a></li> 
+                    <li><a href="https://www.instagram.com/alpinewizard" target="_blank" class="flex flex-col items-center"><i class="fa fa-instagram mx-8"></i><span class="text-xs mt-2">insta</span></a></li> 
+                    <li><a href="https://github.com/chengp3" target="_blank" class="flex flex-col items-center"><i class="fa fa-linkedin mx-8"></i><span class="text-xs mt-2">linkedin</span></a></li> 
+                </ul></nav>
+            </div>
+        </main>
+    </body>
+    <script src="../swup.js" type="module"></script>
+</html>

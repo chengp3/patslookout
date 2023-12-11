@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contents p {
+  @apply mb-6;
+}
+
+.contents h4 {
+  @apply text-xl font-bold my-6;
+}
+
 .transition-swipe {
     transition: 250ms;
     opacity: 1;

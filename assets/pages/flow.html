@@ -1,9 +1,8 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="/assets/css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/ostyles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/assets/css/posto.css">
     </head>
     <body class="flex flex-col items-center w-full mx-auto min-h-screen">
         <div class="flex justify-center mt-10 mb-10 w-9/12" id="header">
@@ -27,11 +26,11 @@
                 </ul>
             </div>            
         </div>
-        <main id="swup" class="w-8/12 flex flex-col items-center transition-swipe">
+        <main id="swup" class="flex flex-col items-center transition-swipe w-1/2">
             <div class="flex flex-col w-full saturate-100 drop-shadow-2xl transition-swipe">
                 <div class="mt-4 mb-4 contents w-full flex justify-normal">
                     <div class="flex items-center border-b-2">
-                        <p class="text-3xl font-bold mt-4 mr-6">Flow Cytometry </p>
+                        <p class="text-3xl font-bold mt-4 mr-6">Flow Cytometry</p>
                         <span class="font-normal italic">by Patrick Cheng</span>
                     </div>
                     <p class="mt-6">Two thousand years ago, Aristotle thought disease arose from imbalance of blood, phlegm, bile. Computers were invented a few generations ago, and now anyone can use out-of-the-box machine learning algorithms to diagnose leukemia. In this article I'll explain how.
@@ -40,14 +39,14 @@
                     <p>ELI5: If you were to measure a firefighter, a soldier, and a ballerina... firefighters' and soldiers' boots are much heavier than ballerinas' pointe shoes. Ballerinas don't wear helmets. Firefighters carry hose but soldiers don't. Who wears no helmet or hose and light shoes? Helmet and no hose?
                     <p>Flow cytometry works by tagging specific proteins with fluorescent markers and measuring the fluorescence. The proteins are named things like “CD34” or “CD38”, where CD stands for “conserved domain”. You can think of them like the shoes, hose, helmet in the example above. 
                     <p>In figure 1, a normal patient shows the rough distribution of normal WBCs as they develop, with a smooth curve representing a normal transition of CD34 to CD38 in a population. On the right is a leukemic patient, who has an anomalous population of low CD34 AND low CD38 cells that doesn't really ever happen "naturally". </p>
-                    <div class="w-full flex justify-center"><img class="border-2 border-black mt-4 mb-10 max-w-lg" src="../images/flow/figure 1.png"></div>
+                    <div class="w-full flex justify-center"><img class="border-2 border-black mt-4 mb-10 max-w-sm" src="/assets/images/flow/figure 1.png"></div>
                     
                     <p>A pathologist will look at maybe dozens of plots like the one in figure 1. The thing is, a computer is great at crunching arrays of samples like this very quickly. There's the rub.
                     <p><b>Napkin math:</b> pathologists cost roughly $1 per minute, and a straightforward flow may take 10 minutes... there are at 150,000 new cases of leukemia per year. The tab comes out to $1,500,000 per year... this does not count negative cases, periodic retesting for relapse, and retesting for treatment monitoring, which is really a huge portion of flows. Not to mention, flow cytometry is used for many other types of molecular classification and this method can easily be adapted across other uses as well.
                     <h4>Data!</h4>
                     <p>There happens to be a flow cytometry repository at flowrepository.org. ;) This dataset contains 359 people, including 43 patients suffering from acute myeloid leukemia (AML), a subtype of leukemia. I used this <a href="https://github.com/genepattern">git repo</a> to preprocess the data.
                     For each patient there are a combination of about 30 of the same proteins that were measured with flow cytometry for the roughly 30,000 cells in each sample. The measure of the proteins is in units of fluorescence, ranging from 0 (no protein) to 1015 (lots of protein). A scatter plot of the first patient's first two markers results in the scatterplot below.</p>
-                    <div class="w-full flex justify-center"><img class="border-t-2 border-l-2 border-b-2 border-black mt-4 mb-10 max-w-xs" src="../images/flow/figure 2.png"><img class="border-2 border-black mt-4 mb-10 max-w-xs" src="../images/flow/figure 3a.png"></div>
+                    <div class="w-full flex justify-center"><img class="border-t-2 border-l-2 border-b-2 border-black mt-4 mb-10 max-w-xs" src="/assets/images/flow/figure 2.png"><img class="border-2 border-black mt-4 mb-10 max-w-xs" src="../images/flow/figure 3a.png"></div>
                     <p>Additionally, since I want to explore a computer's vision of this space, I split the plot into histogram boxes, because tracking each of 30,000 cells will not be computationally feasible. In the figure above-right, the plot is divided into 100 boxes. You can see a majority of the lymphocytes (a type of WBC) falling into the boxes labeled 4 and 14. So the predictors for our algorithm are actually the number of cells that fall into each box. 
                     <div class="w-full flex justify-center"></div>
 

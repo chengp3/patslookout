@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "postcss assets/css/post.css -o assets/css/posto.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +23,6 @@
     "nodemon": "^3.0.1",
     "postcss": "^8.4.32",
     "postcss-cli": "^11.0.0",
-    "strapi-provider-upload-aws-s3": "^3.6.11",
     "swup": "^4.4.4",
     "tailwindcss": "^3.3.6"
   }

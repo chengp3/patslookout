@@ -2,3 +2,4 @@
 .env.local
 .tmp
 .log
+node_modules/

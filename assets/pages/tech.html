@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/ostyles.css">
+        <link rel="stylesheet" href="/assets/css/battable.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <style>
+            .project-container {
+                position: relative;
+            }
+
+            .project-container img {
+                opacity: 1;
+                transition: opacity 0.3s ease; 
+            }
+
+            .project-container:hover img{
+                opacity: .6;
+            }
+
+            .text-overlay div {
+                background-color: darkgray;
+                border-color: black;
+                border-radius: 10px;
+                border-width: thin;
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+
+        </style>
+    </head>
+    <body class="flex flex-col items-center w-full mx-auto min-h-screen">
+        <div id="header" class="flex justify-center mt-10 pb-10 border-b-2 w-7/12">
+            <div class="flex flex-col justify-center items-center mr-16 custom-font text-5xl md:text-9xl">
+                <a href="/index.html">the lookout</a>
+            </div>
+            <div class="flex items-center" id="navbar-collapse">
+                <ul class="flex flex-col list-none">
+                    <li class="nav-item">
+                        <a href="/index.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/assets/pages/tech.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Tech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/assets/pages/photos.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/assets/pages/climbing.html" class="py-3 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75 md:text-xl">Climbing</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+        <main id="swup" class="flex flex-col items-center transition-swipe w-8/12 mt-10">
+            <div id="content" class="flex flex-col w-full saturate-100 drop-shadow-2xl transition-swipe">
+                <div class="w-full flex flex-col p-4 text-3xl font-bold">Some 'jects</div>
+                <div id="projects" class="w-full grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 p-6 rounded-lg bg-indigo-50 max-w-4xl">
+                    <div class="project-container">
+                        <a href="https://echo-ebon.vercel.app" class="flex flex-col items-center">
+                        <span class="text-lg text-center"><b>Echo Chambers</b></span>
+                        <div class="relative w-60 h-60">
+                            <img class="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/social+network.png">
+                            <div class="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
+                                <div>jQuery</div>
+                                <div>canvas</div>
+                                <div>CSS</div>
+                            </div>
+                        </div>
+                        <span class="mt-2 mx-6 text-xs text-center"><i>An interactive simulation exploring social media dynamics. 
+                            Traits like agreeableness, unfriending, and influenceability determine the makeup of these virtual social groups.
+                        </i></span>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a href="https://trendy-rho.vercel.app" class="flex flex-col items-center">
+                        <span class="text-lg text-center"><b>Trendy</b></span>
+                        <div class="relative w-60 h-60">
+                            <img class="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/trendy-rho.png">
+                            <div class="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
+                                <div>javascript</div>
+                                <div>python</div>
+                                <div>AWS</div>
+                            </div>
+                        </div>
+                        <span class="mt-2 mx-6 text-xs text-center"><i>A price trend analysis app/dashboard. I took one of 
+                            the algorithms I use to trade futures and made a little software flower out of it.
+                        </i></span>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a href="/assets/pages/flow.html" class="flex flex-col items-center">
+                        <span class="text-lg text-center"><b>Flow Cytometry</b></span>
+                        <div class="relative w-60 h-60">
+                            <img class="project-image w-full h-full" src="/assets/images/flow.png">
+                            <div class="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
+                                <div>python</div>
+                                <div>scikitlearn</div>
+                            </div>
+                        </div>
+                        <span class="mt-2 mx-6 text-xs text-center"><i>An article exploring machine learning (SVM) to diagnose blood cancer from flow cytometry readings.
+                            Medicine as a field seems to be ripe for machine learning...</i></span>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <div class="flex flex-col items-center">
+                        <span class="text-lg text-center"><b>ClimbWise</b></span>
+                        <div class="relative w-60 h-60">
+                            <img class="project-image w-full h-full" src="/assets/images/climbwise.png">
+                            <div class="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
+                                <div>python</div>
+                                <div>flask</div>
+                            </div>
+                        </div>
+                        <span class="mt-2 mx-6 text-xs text-center"><i>Climbing and nerding out, what a combo. A personal climbing grade dashboard. This one might take me a sec to port (under construction)</i></span>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="bonafides" class="w-full flex flex-col mt-12 p-4">
+                    <div class="text-3xl font-bold mb-4">Tech Background</div>
+                    <div class="header2">Stack:</div> 
+                    <ul>
+                        <li>∙ <b>Languages:</b> C, C#, JavaScript, TypeScript, Python, Java</li>
+                        <li>∙ <b>Web dev:</b> React.js, Next.js, Express, HTML, CSS, SQL (Postgres/Mongo)</li>
+                        <li>∙ <b>AWS suite:</b> Lambda, S3, RDS, IAM, Gateway</li>
+                        <li>∙ <b>Distributed:</b> Hadoop, Hive, Spark, Atlas</li>
+                    </ul>
+                    <div class="header2">Experience:</div>
+                    <div class="header3"><b>Galactic Polymath</b> (Ed Tech)</div>
+                    <ul class="">
+                        <li>∙ Game designer. Supported creative studio by writing interactive games (JavaScript, Canvas, SVG)</li>
+                        <li>∙ Automated lesson plan work flow with CI/CD strategies (GitHub Actions)</li>
+                        <li>∙ Assisted in transition from React.js to Next.js</li>
+                        <li>∙ Integrated localization support. JavaScript, SASS. Extended our reach overseas.</li>
+                    </ul>
+                    <div class="header2">Education:</div> 
+                        <ul><li>∙ B.S. Computer Science, B.S. Biomedical Engineering, M.D.</li></ul>
+                </div>
+            </div>
+            <div class="my-16" id="footer">
+                <nav class="social-media-navbar"><ul>
+                    <li><a href="https://github.com/chengp3" target="_blank" class="flex flex-col items-center"><i class="fab fa-github mx-8"></i><span class="text-xs mt-2">git</span></a></li> 
+                    <li><a href="https://www.instagram.com/alpinewizard" target="_blank" class="flex flex-col items-center"><i class="fab fa-instagram mx-8"></i><span class="text-xs mt-2">insta</span></a></li> 
+                    <li><a href="https://www.linkedin.com/in/swepat" target="_blank" class="flex flex-col items-center"><i class="fab fa-linkedin mx-8"></i><span class="text-xs mt-2">linkedin</span></a></li> 
+                </ul></nav>
+            </div>
+        </main>
+    </body>
+    <script src="/assets/swup.js" type="module"></script>
+</html>

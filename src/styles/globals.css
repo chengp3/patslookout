@@ -1,0 +1,381 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body, html {
+  height: 100%; /* Make sure the body and html fill the viewport height */
+  margin: 0;    /* Reset default margin */
+  overflow-y: scroll;
+}
+
+/*
+*
+*   Footer
+*
+*/
+
+.social span {
+  transform: translateY(-15px);
+  transition: transform 300ms, opacity 300ms;
+}
+
+.social i {
+  transition: transform 300ms;
+}
+
+.social:hover span {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.social:hover i {
+  transform: scale(1.2)
+}
+
+/*
+*
+*   Header
+*
+*/
+
+#title {
+  font-family: 'Inter', sans-serif; 
+}
+
+/*
+*
+*   Tech.tsx
+*
+*/
+
+#bonafides li {
+  @apply ml-6
+}
+
+.text-overlay {
+  @apply transition duration-500 border-2 rounded border-black;
+}
+
+.project-container .text-overlay {
+  opacity: 0;
+}
+
+.project-container:hover .text-overlay {
+  opacity: 1;
+}
+
+.project-container:hover .project-image {
+  opacity: 0.5;
+}
+
+.text-overlay div {
+  @apply border border-black rounded px-2 bg-gray-50;
+}
+
+/*
+*
+*   Gallery
+*
+*/
+
+#postcards {
+  font-family: 'Cedarville Cursive'
+}
+
+.tag {
+  @apply border rounded-lg px-2 py-1 m-2 text-sm transition cursor-pointer
+}
+
+.tag.active {
+  background-color: gray;
+  color: white;
+  transform: scale(1.1);
+}
+
+.thumb {
+  filter: grayscale(25%);
+  padding: 8px;
+  border-width: thin;
+  border-color: black;
+}
+
+#lb {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000e1;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lb-img-container {
+  width: 90%;
+  height: 90%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#lb-img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  @apply rounded-lg;
+}
+
+#lb-back {
+  background-color: white;
+  opacity: .5;
+  border-radius: 50%;
+  z_index: 1002;
+  transform-origin: center;
+  height: 4%;
+  position: absolute;
+  top: 48%;
+  left: 1.5%;
+  @apply cursor-pointer;
+}
+
+#lb-next {
+  background-color: white;
+  opacity: .5;
+  border-radius: 50%;
+  z-index: 1001;
+  transform-origin: center;
+  height: 4%;
+  position: absolute;
+  top: 48%;
+  left: 95%;
+  @apply cursor-pointer;
+}
+
+#lb-close {
+  transform-origin: center;
+  height: 2%;
+  position: absolute;
+  top: 2%;
+  left: 49%;
+  @apply cursor-pointer;
+}
+
+#lb-close:hover {
+  transition: 200ms ease-in-out;
+  transform: scale(1.3);
+}
+
+#lb-next:hover {
+  transition: 200ms ease-in-out;
+  transform: scale(1.3);
+}
+
+#lb-back:hover {
+  transition: 200ms ease-in-out;
+  transform: scale(1.3);
+}
+
+#lb-text {
+  position: absolute;
+  top: 92%;
+  font-family: 'Cedarville Cursive', cursive;
+  @apply bg-white px-2 rounded border-b transition md:text-xl
+}
+
+/*
+*
+*   Climbing
+*
+*/
+
+#nosewrapper {
+  width: 80vw;
+  min-width: 325px;
+  max-width: 768px;
+}
+
+#thenose {
+  background-image: url("https://patslookout.s3.us-west-2.amazonaws.com/climbing/elcap.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 65.36%;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+.label {
+  position: absolute;
+  font-size: .8em;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(255,179,186);
+  opacity: .6;
+  transform: translate(-48%, 0%);
+  border-color: rgb(0,0,0);
+  border-width: 2px;
+  border-radius: 3px;
+  transition: all 150ms linear;
+}
+
+.nose-label-active {
+  font-size: 1em;
+  opacity: 1;
+  transform: translate(-48%, -10%) scale(1.1)
+}
+
+#label1 {
+  top: 51%;
+  left: 56.9%;
+}
+
+#circle1 {
+  top: 56.6%;
+  left: 56.4%;
+}
+
+#label2 {
+  top: 28.8%;
+  left: 53.9%;
+}
+
+#circle2 {
+  top: 34.6%;
+  left: 53.6%;
+}
+
+#label3 {
+  z-index: 100;
+  top: 2.7%;
+  left: 54.2%;
+}
+
+#circle3 {
+  top: 8.6%;
+  left: 53.6%;
+}
+
+.nose-circle {
+  z-index: 50;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0,0,0,.2);
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: rgba(0,0,0);
+  transition: all 150ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.nose-circle-active {
+  background-color: rgb(255, 107, 107);
+  transition: all 150ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+#climber1 {
+  top: 61%;
+  left: 43.2%;
+}
+
+#climber2 {
+  z-index: 1;
+  top: 52%;
+  left: 52%;
+}
+
+#climber3 {
+  top: 30.8%;
+  left: 27%;
+}
+
+.climber {
+  width: 20%;
+  position: absolute;
+  opacity: 0;
+  transform: translate(0, 50vw);
+  transition: all 150ms linear;
+}
+
+.climber-active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 150ms linear;
+}
+
+
+/*
+*
+*   BatWall
+*
+*/
+
+#batwall .header1 {
+  font-weight: bold;
+  font-size: 3em;
+  font-style: underline;
+}
+
+#batwall .header2 {
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 20px;
+}
+
+#batwall  .header3 {
+  margin-left: 40px;
+}
+
+#batwall li, p {
+  padding-left: 40px;
+}
+
+.bat-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.bat-table thead tr {
+  background-color: #6e0000;
+  color: #ffffff;
+  text-align: left;
+}
+
+.bat-table th,
+.bat-table td {
+  padding: 12px 15px;
+}
+
+.bat-table tbody tr {
+  border-bottom: 1px solid #6e0000;
+}
+
+.bat-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.bat-table tbody tr:last-of-type {
+  border-bottom: 2px solid #6e0000;
+}
+
+.bat-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}

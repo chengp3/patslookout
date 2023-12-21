@@ -39,7 +39,7 @@ export default function Home() {
             </a>
           </div>
           <div className="project-container">
-            <a href="/assets/pages/flow.html" className="flex flex-col items-center">
+            <a href="/construction" className="flex flex-col items-center">
               <span className="text-lg text-center transition"><b>Flow Cytometry</b></span>
               <div className="relative w-60 h-60">
                 <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/flow.png" />

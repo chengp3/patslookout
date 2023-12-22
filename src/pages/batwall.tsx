@@ -1,9 +1,11 @@
-const BatWall = () => {
+import AnimatedDiv from '../components/Animate/AnimatedDiv'
+import AnimatedContainer from '../components/Animate/AnimatedContainer'
 
+const BatWall = () => {
   return (
-    <main id="batwall" className="w-9/12 pt-10 flex flex-col items-center transition-swipe">
-      <div className="flex flex-col w-9/12 items-center justify-center saturate-100 drop-shadow-2xl transition-swipe">
-        <div className="w-full">
+    <main id="batwall" className="max-w-sm md:max-w-md pt-10 flex flex-col items-center transition-swipe">
+      <AnimatedContainer className="flex flex-col w-full items-center justify-center saturate-100 drop-shadow-2xl transition-swipe">
+        <AnimatedDiv className="w-full">
           <div className="header1">Bat Wall 🦇 Perma-Draws</div>
           <div className="header2">Background</div>
             <p>In the Spring of 2023 I and several other regular Bat Wall climbers were talking about our many Bat Wall projects when one of us said, "Wouldn't it be nice if there were more permas on them?" What followed was a lot of "huh, why not?" and an informal survey that resulted in overwhelming support. </p>  
@@ -23,8 +25,8 @@ const BatWall = () => {
               <li>∙ Physically obnoxious/in the way</li>
               <li>∙ Aesthetically obtrusive i.e. low to the ground</li>
             </ul>
-        </div>
-        <div className="w-full my-10">
+        </AnimatedDiv>
+        <AnimatedDiv className="w-full my-10">
           <table className="bat-table">
             <thead>
               <tr>
@@ -60,9 +62,8 @@ const BatWall = () => {
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
-
+        </AnimatedDiv>
+      </AnimatedContainer>
     </main>
   )
 

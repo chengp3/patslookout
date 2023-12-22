@@ -62,6 +62,14 @@ body, html {
   transform: scale(1.2)
 }
 
+#footer a {
+  @apply flex flex-col items-center social;
+}
+
+#footer span {
+  @apply text-xs mt-2 opacity-0 text-amber-600;
+}
+
 /*
 *
 *   Header

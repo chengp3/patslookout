@@ -55,7 +55,7 @@ const Photos: React.FC = () => {
   const thumbnails = 'https://patslookout.s3.us-west-2.amazonaws.com/gallery/thumbs/';
 
   return (
-    <main className="my-10 max-w-3xl flex flex-col flex-grow items-center">
+    <main className="my-10 max-w-sm md:max-w-3xl flex flex-col flex-grow items-center">
       <ModalContainer>
         {modalOpen && (
           <Modal photos={photos} i={index} setIndex={setIndex} close={close}>
@@ -67,22 +67,18 @@ const Photos: React.FC = () => {
         <div id="postcards" className="font-bold text-6xl">Postcards</div>
         <div>(from my life)</div>
       </div>
-      
-      
-      <div id="tags" className='flex'>
-        {
-          allTags.map((tag, index) => (
+      <div id="tags" className='flex flex-wrap w-screen'>
+        {allTags.map((tag, index) => (
             <div key={'tag-' + index} className={`tag ${tag === activeTag ? 'active' : ''}`}
               onClick={() => {
                 setActiveTag(tag)
-              }
-              }>{tag}</div>
-          ))
-        }
+              }}>
+              {tag}
+            </div>
+        ))}
       </div>
-        <AnimatePresence>
-        <div id={`photos`} className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-5 w-full">
-          
+      <AnimatePresence>
+        <div id='photos' className="mt-6 mx-6 grid grid-cols-1 md:grid-cols-3 gap-5">
           {photos.map(({filename, id}) => (
             <motion.img 
               key={`${id}-${activeTag}`}
@@ -110,7 +106,6 @@ const Photos: React.FC = () => {
               }}
             />
           ))}
-          
         </div>
       </AnimatePresence>
     </main>

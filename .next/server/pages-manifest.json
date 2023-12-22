@@ -1,7 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/climbing": "pages/climbing.js",
-  "/photos": "pages/photos.js"
-}
+{"/_app":"pages/_app.js","/_document":"pages/_document.js","/api/hello":"pages/api/hello.js","/batwall":"pages/batwall.html","/climbing":"pages/climbing.html","/construction":"pages/construction.html","/flow":"pages/flow.html","/":"pages/index.html","/photos":"pages/photos.html","/tech":"pages/tech.html","/_error":"pages/_error.js","/404":"pages/404.html"}

@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
         </AnimatedDiv>
-        <AnimatedDiv id="bonafides" className="w-full flex flex-col mt-12 p-4">
+        <AnimatedDiv className="w-full flex flex-col mt-12 p-4">
           <div className="text-3xl font-bold mb-4">Tech Background</div>
           <div className="font-bold pl-2">Stack:</div>
           <ul>

@@ -2,4 +2,5 @@
 .env.local
 .tmp
 .log
+.next
 node_modules/

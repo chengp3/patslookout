@@ -16,6 +16,28 @@ body, html {
   overflow-y: scroll;
 }
 
+#slide-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0f0f0f;
+  transform-origin: right;
+}
+
+#slide-out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0f0f0f;
+  transform-origin: left;
+}
+
+
+
 /*
 *
 *   Footer
@@ -50,17 +72,21 @@ body, html {
   font-family: 'Inter', sans-serif; 
 }
 
+#headerpic {
+  filter: grayscale(.7);
+}
+
 /*
 *
 *   Tech.tsx
 *
 */
 
-#bonafides li {
+#tech li {
   @apply ml-6
 }
 
-.text-overlay {
+#tech .text-overlay {
   @apply transition duration-500 border-2 rounded border-black;
 }
 
@@ -76,7 +102,7 @@ body, html {
   opacity: 0.5;
 }
 
-.text-overlay div {
+#tech .text-overlay div {
   @apply border border-black rounded px-2 bg-gray-50;
 }
 
@@ -248,6 +274,7 @@ body, html {
 }
 
 #label2 {
+  z-index: 6;
   top: 28.8%;
   left: 53.9%;
 }
@@ -264,6 +291,7 @@ body, html {
 }
 
 #circle3 {
+  z-index: 101;
   top: 8.6%;
   left: 53.6%;
 }
@@ -286,26 +314,27 @@ body, html {
 }
 
 #climber1 {
-  top: 61%;
-  left: 43.2%;
+  top: 57%;
+  left: 45.9%;
 }
 
 #climber2 {
-  z-index: 1;
-  top: 52%;
-  left: 52%;
+  z-index: 5;
+  top: 36.5%;
+  left: 56.5%;
 }
 
 #climber3 {
-  top: 30.8%;
-  left: 27%;
+  z-index: 7;
+  top: -6%;
+  left: 35%;
 }
 
 .climber {
   width: 20%;
   position: absolute;
   opacity: 0;
-  transform: translate(0, 50vw);
+  transform: translate(0, 50%);
   transition: all 150ms linear;
 }
 
@@ -378,4 +407,22 @@ body, html {
 .bat-table tbody tr.active-row {
   font-weight: bold;
   color: #009879;
+}
+
+/*
+*
+*   Flow
+*
+*/
+
+#flow .para {
+  @apply mt-3
+}
+
+#flow .head {
+  @apply mt-6 font-bold text-lg
+}
+
+#flow img {
+  @apply my-10
 }

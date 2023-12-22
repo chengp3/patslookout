@@ -49,8 +49,7 @@ export default function Home() {
               <div id="circle3" className="nose-circle" />
               <div id="label3" className="label">ClimbWise Analytics</div>
             </a>
-        </div>
-        <Image id='climber1' className="climber" 
+            <Image id='climber1' className="climber" 
           src="https://patslookout.s3.us-west-2.amazonaws.com/climbing/honnold.png" 
           height="600"
           width="1076"
@@ -68,6 +67,7 @@ export default function Home() {
           width="299"
           alt="Lynn Hill"
         />
+        </div>
       </div>
     </main>
   )

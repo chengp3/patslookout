@@ -1,11 +1,13 @@
 import Image from 'next/image'
+import AnimatedDiv from '../components/Animate/AnimatedDiv'
+import AnimatedContainer from '../components/Animate/AnimatedContainer'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center transition-swipe max-w-3xl my-10 flex-grow">
-      <div id="content" className="flex flex-col w-full saturate-100 drop-shadow-2xl transition-swipe max-w-2xl">
-        <div className="w-full flex flex-col p-4 text-3xl font-bold">Some 'jects</div>
-        <div id="projects" className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 p-6 rounded-lg bg-indigo-50">
+    <main id="tech" className="flex flex-col items-center transition-swipe max-w-3xl my-10 flex-grow">
+      <AnimatedContainer className="flex flex-col w-full saturate-100 drop-shadow-2xl transition-swipe max-w-2xl">
+        <AnimatedDiv className="w-full flex flex-col p-4 text-3xl font-bold">Some 'jects</AnimatedDiv>
+        <AnimatedDiv className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 p-6 rounded-lg bg-indigo-50">
           <div className="project-container">
             <a href="https://echo-ebon.vercel.app" className="flex flex-col items-center">
               <span className="text-lg text-center"><b>Echo Chambers</b></span>
@@ -39,7 +41,7 @@ export default function Home() {
             </a>
           </div>
           <div className="project-container">
-            <a href="/construction" className="flex flex-col items-center">
+            <a href="/flow" className="flex flex-col items-center">
               <span className="text-lg text-center transition"><b>Flow Cytometry</b></span>
               <div className="relative w-60 h-60">
                 <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/flow.png" />
@@ -65,8 +67,8 @@ export default function Home() {
               <div className="mt-2 mx-6 text-xs w-60 text-center italic">Climbing and nerding out, what a combo. A personal climbing grade dashboard. This one might take me a sec to port (under construction)</div>
             </div>
           </div>
-        </div>
-        <div id="bonafides" className="w-full flex flex-col mt-12 p-4">
+        </AnimatedDiv>
+        <AnimatedDiv id="bonafides" className="w-full flex flex-col mt-12 p-4">
           <div className="text-3xl font-bold mb-4">Tech Background</div>
           <div className="font-bold pl-2">Stack:</div>
           <ul>
@@ -85,8 +87,8 @@ export default function Home() {
           </ul>
           <div className="font-bold pl-2 mt-4">Education:</div>
           <ul><li>∙ B.S. Computer Science, M.D.</li></ul>
-        </div>
-      </div>
+        </AnimatedDiv>
+      </AnimatedContainer>
     </main>
   )
 }

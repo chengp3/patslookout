@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import { motion } from 'framer-motion';
 
 type LayoutProps = {
   children: ReactNode;
@@ -13,7 +14,8 @@ const Layout = ({ children }: LayoutProps) => {
       {children}
       <Footer />
     </div>
-  );
+  )
 };
 
 export default Layout;
+

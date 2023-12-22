@@ -9,11 +9,11 @@ interface AnimatedDivProps {
 
 const AnimatedImg: React.FC<AnimatedDivProps> = ({children, className}) => {
   return (
-    <motion.Img key={useId()} className={className}
+    <motion.img key={useId()} className={className}
       variants={item}
     >
       {children}
-    </motion.Img>
+    </motion.img>
   );
 };
 

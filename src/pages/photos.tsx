@@ -67,7 +67,7 @@ const Photos: React.FC = () => {
         <div id="postcards" className="font-bold text-6xl">Postcards</div>
         <div>(from my life)</div>
       </div>
-      <div id="tags" className='flex flex-wrap w-screen'>
+      <div id="tags" className='flex flex-wrap w-screen md:max-w-3xl'>
         {allTags.map((tag, index) => (
             <div key={'tag-' + index} className={`tag ${tag === activeTag ? 'active' : ''}`}
               onClick={() => {

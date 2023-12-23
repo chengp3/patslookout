@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/batwall": "pages/batwall.js",
-  "/climbing": "pages/climbing.js",
   "/": "pages/index.js",
-  "/flow": "pages/flow.js"
+  "/photos": "pages/photos.js"
 }

@@ -12,7 +12,7 @@ export default function Home() {
             <a href="https://echo-ebon.vercel.app" className="flex flex-col items-center">
               <span className="text-lg text-center"><b>Echo Chambers</b></span>
               <div className="relative w-60 h-60">
-                <img className="project-image w-full h-full transition" src="https://patslookout.s3.us-west-2.amazonaws.com/social+network.png" />
+                <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/tech/social+network.png" />
                 <div className="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
                   <div>jQuery</div>
                   <div>canvas</div>
@@ -28,7 +28,7 @@ export default function Home() {
             <a href="https://trendy-rho.vercel.app" className="flex flex-col items-center">
               <span className="text-lg text-center"><b>Trendy</b></span>
               <div className="relative w-60 h-60">
-                <img className="project-image w-full h-full transition" src="https://patslookout.s3.us-west-2.amazonaws.com/trendy-rho.png" />
+                <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/tech/trendy-rho.png" />
                 <div className="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
                   <div>javascript</div>
                   <div>python</div>
@@ -44,7 +44,7 @@ export default function Home() {
             <a href="/flow" className="flex flex-col items-center">
               <span className="text-lg text-center transition"><b>Flow Cytometry</b></span>
               <div className="relative w-60 h-60">
-                <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/flow.png" />
+                <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/tech/flow.png" />
                 <div className="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
                   <div>python</div>
                   <div>scikitlearn</div>
@@ -58,7 +58,7 @@ export default function Home() {
             <div className="flex flex-col items-center">
               <span className="text-lg text-center"><b>ClimbWise</b></span>
               <div className="relative w-60 h-60">
-                <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/climbwise.png" />
+                <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/tech/climbwise.png" />
                 <div className="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
                   <div>python</div>
                   <div>flask</div>
@@ -66,6 +66,21 @@ export default function Home() {
               </div>
               <div className="mt-2 mx-6 text-xs w-60 text-center italic">Climbing and nerding out, what a combo. A personal climbing grade dashboard. This one might take me a sec to port (under construction)</div>
             </div>
+          </div>
+          <div className="project-container">
+            <a href="https://github.com/chengp3/patslookout" className="flex flex-col items-center">
+              <span className="text-lg text-center"><b>Pat's Lookout</b></span>
+              <div className="relative w-60 h-60">
+                <img className="project-image w-full h-full" src="https://patslookout.s3.us-west-2.amazonaws.com/tech/me.png" />
+                <div className="absolute inset-0 text-overlay flex flex-col items-center justify-evenly">
+                  <div>next.js</div>
+                  <div>typescript</div>
+                  <div>framer.motion</div>
+                  <div>AWS</div>
+                </div>
+              </div>
+              <div className="mt-2 mx-6 text-xs w-60 text-center italic">The unfortunate focal point of one man's whims</div>
+            </a>
           </div>
         </AnimatedDiv>
         <AnimatedDiv className="w-full flex flex-col mt-12 p-4">

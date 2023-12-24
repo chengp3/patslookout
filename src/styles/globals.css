@@ -193,7 +193,7 @@ body, html {
   height: 4%;
   position: absolute;
   top: 48%;
-  left: 95%;
+  right: 1.5%;
   @apply cursor-pointer;
 }
 
@@ -249,6 +249,7 @@ body, html {
   position: relative;
   border-radius: 5px;
   box-shadow: 5px 5px 5px lightgray;
+  z-index: 0;
 }
 
 .label {
@@ -268,40 +269,43 @@ body, html {
 .nose-label-active {
   font-size: 1em;
   opacity: 1;
-  transform: translate(-48%, -10%) scale(1.1)
+  transform: translate(-48%, -10%)
 }
 
 #label1 {
-  top: 51%;
-  left: 56.9%;
+  top: 55.8%;
+  left: 46.9%;
+  z-index: 10;
 }
 
 #circle1 {
   top: 56.6%;
   left: 56.4%;
+  z-index: 10;
 }
 
 #label2 {
-  z-index: 6;
-  top: 28.8%;
-  left: 53.9%;
+  z-index: 20;
+  top: 33.8%;
+  left: 44%;
 }
 
 #circle2 {
+  z-index: 20;
   top: 34.6%;
   left: 53.6%;
 }
 
 #label3 {
-  z-index: 100;
-  top: 2.7%;
-  left: 54.2%;
+  top: 7.7%;
+  left: 41.9%;
+  z-index: 30;
 }
 
 #circle3 {
-  z-index: 101;
   top: 8.6%;
   left: 53.6%;
+  z-index: 30;
 }
 
 .nose-circle {
@@ -321,28 +325,32 @@ body, html {
   transition: all 150ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
+
+/* climbers were causing mouseover bugs because of z-index 
+all these and future climbers must have z-index < 10 to keep it under the labels*/
 #climber1 {
   top: 57%;
   left: 45.9%;
+  z-index: 1;
 }
 
 #climber2 {
-  z-index: 5;
   top: 36.5%;
-  left: 56.5%;
+  left: 54.5%;
+  z-index: 2;
 }
 
 #climber3 {
-  z-index: 7;
   top: -6%;
-  left: 35%;
+  right: 45%;
+  z-index: 3;
 }
 
 .climber {
   width: 20%;
   position: absolute;
   opacity: 0;
-  transform: translate(0, 50%);
+  transform: translate(0, 20%);
   transition: all 150ms linear;
 }
 

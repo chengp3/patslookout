@@ -3,8 +3,8 @@ import AnimatedContainer from '../components/Animate/AnimatedContainer'
 
 const BatWall = () => {
   return (
-    <main id="batwall" className="max-w-sm md:max-w-md pt-10 flex flex-col items-center transition-swipe">
-      <AnimatedContainer className="flex flex-col w-full items-center justify-center saturate-100 drop-shadow-2xl transition-swipe">
+    <main id="batwall" className="max-w-sm md:max-w-xl pt-10 flex flex-col items-center">
+      <AnimatedContainer className="flex flex-col w-full items-center justify-center saturate-100 drop-shadow-2xl">
         <AnimatedDiv className="w-full">
           <div className="header1">Bat Wall 🦇 Perma-Draws</div>
           <div className="header2">Background</div>

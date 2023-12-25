@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/climbing": "pages/climbing.js",
-  "/photos": "pages/photos.js",
-  "/tech": "pages/tech.js"
+  "/batwall": "pages/batwall.js",
+  "/": "pages/index.js"
 }

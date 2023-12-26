@@ -641,367 +641,241 @@
     ]
   },
   {
-    "filename": "trout.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "Trout Creek sunset.",
-    "tags": ["Nature", "Scenic"]
-  },
-  {
     "filename": "chop.jpg",
     "width": 3856,
     "height": 2892,
     "title": "Seattle People Department. CHOP, Capitol Hill. 2020. Seattle, WA.",
-    "tags": [
-      "Urban"
-    ]
+    "tags": ["Urban"]
   },
   {
     "filename": "sthelens.jpg",
     "width": 4032,
     "height": 3024,
     "title": "Mind blowing hike. Half the mountain, about the size of downtown Portland, is just gone. St. Helens, WA.",
-    "tags": [
-      "Hiking",
-      "Nature",
-      "Scenic"
-    ]
+    "tags": ["Hiking", "Nature", "Scenic"]
   },
   {
     "filename": "gatita.jpg",
     "width": 4032,
     "height": 3024,
     "title": "Luke likes small animals. EPC, Mexico.",
-    "tags": [
-      "Urban",
-      "Whimsical"
-    ]
+    "tags": ["Urban", "Whimsical"]
   },
   {
     "filename": "rrdanna.jpg",
     "width": 3024,
     "height": 2268,
     "title": "Crag dog. Red Rocks, Nevada.",
-    "tags": [
-      "Climbing",
-      "Portrait"
-    ]
+    "tags": ["Climbing", "Portrait"]
   },
   {
     "filename": "rentals.jpg",
     "width": 3625,
     "height": 2719,
     "title": "Rental skis. Managed by yours truly one winter. Snoqualmie, WA.",
-    "tags": [
-      "Whimsical",
-      "Skiing"
-    ]
+    "tags": ["Whimsical", "Skiing"]
   },
   {
     "filename": "alan.jpg",
     "width": 1440,
     "height": 1080,
     "title": "Insane aesthetic. Alan on Jupiter Crack. @Indian Creek, UT.",
-    "tags": [
-      "Climbing"
-    ]
+    "tags": ["Climbing"]
   },
   {
     "filename": "frenchs.jpg",
     "width": 3265,
     "height": 2449,
     "title": "Pretty rock. @French's Dome, Mt. Hood, OR.",
-    "tags": [
-      "Climbing"
-    ]
+    "tags": ["Climbing"]
   },
   {
     "filename": "stevesarete.jpg",
     "width": 4353,
     "height": 3265,
     "title": "Photogenic feature. Steve's Arete @Mt. Lemmon, AZ. Photo by the wonderous @ryebreadwestby",
-    "tags": [
-      "Climbing"
-    ]
+    "tags": ["Climbing"]
   },
   {
     "filename": "john.jpg",
     "width": 3024,
     "height": 2268,
     "title": "John :) 32 routes for his 32nd bday. Red River Gorge, KY.",
-    "tags": [
-      "Portrait"
-    ]
+    "tags": ["Portrait"]
   },
   {
     "filename": "babyclimb.jpg",
     "width": 434,
     "height": 326,
     "title": "Always looking for things to climb on. Austin, TX.",
-    "tags": [
-      "Climbing",
-      "Portrait"
-    ]
+    "tags": ["Climbing", "Portrait"]
   },
   {
     "filename": "mushrooms.jpg",
     "width": 3024,
     "height": 2268,
     "title": "Cute little guys.",
-    "tags": [
-      "Hiking",
-      "Nature",
-      "Whimsical"
-    ]
+    "tags": ["Hiking", "Nature", "Whimsical"]
   },
   {
     "filename": "indiancreekdog.jpg",
     "width": 3024,
     "height": 2268,
     "title": "Crag dog. Indian Creek, UT.",
-    "tags": [
-      "Dog",
-      "Portrait"
-    ]
+    "tags": ["Dog", "Portrait"]
   },
   {
     "filename": "bridge.jpg",
     "width": 3896,
     "height": 2922,
     "title": "Bolted bridge near Redmond, OR.",
-    "tags": [
-      "Climbing",
-      "Urban"
-    ]
+    "tags": ["Climbing", "Urban"]
   },
   {
     "filename": "lemmon.jpg",
     "width": 4353,
     "height": 3265,
     "title": "Found another lookout. Mt. Lemmon, AZ.",
-    "tags": [
-      "Climbing",
-      "Nature"
-    ]
+    "tags": ["Climbing", "Nature"]
   },
   {
     "filename": "chris.jpg",
     "width": 1440,
     "height": 1080,
     "title": "Just so hip. Chris @Indian Creek, UT.",
-    "tags": [
-      "Climbing",
-      "Potrait"
-    ]
+    "tags": ["Climbing", "Potrait"]
   },
   {
     "filename": "cartablanca.jpg",
     "width": 1313,
     "height": 985,
     "title": "Shooting the breeze at the foot of a mountain. With Jerrine @EPC, Mexico. Photo by @ryebreadwestby, a reallll suave guy.",
-    "tags": [
-      "Climbing",
-      "Urban"
-    ]
+    "tags": ["Climbing", "Urban"]
   },
   {
     "filename": "mailbox.jpg",
     "width": 3972,
     "height": 2979,
     "title": "Snowy hike. Mailbox Peak, WA.",
-    "tags": [
-      "Hiking",
-      "Nature"
-    ]
+    "tags": ["Hiking", "Nature"]
   },
   {
     "filename": "slot2.jpg",
     "width": 3024,
     "height": 2268,
     "title": "She insisted she didn't want help. @Moab, UT.",
-    "tags": [
-      "Hiking",
-      "Nature"
-    ]
+    "tags": ["Hiking", "Nature"]
   },
   {
     "filename": "hh.jpg",
     "width": 1972,
     "height": 1479,
     "title": "Gandalf and one of the Eagles competing in @24HHH, AR.",
-    "tags": [
-      "Climbing",
-      "Whimsical"
-    ]
+    "tags": ["Climbing", "Whimsical"]
   },
   {
     "filename": "columns.jpg",
     "width": 3024,
     "height": 2268,
     "title": "Basalt is so pretty to me. Jerrine and Paul @Trout, OR.",
-    "tags": [
-      "Climbing",
-      "Nature"
-    ]
+    "tags": ["Climbing", "Nature"]
   },
   {
     "filename": "exhausted.jpg",
     "width": 631,
     "height": 473,
     "title": "Taking a breather with a stunning view. Meadows, Mt. Hood, OR.",
-    "tags": [
-      "Skiing"
-    ]
+    "tags": ["Skiing"]
   },
   {
     "filename": "motorcycles.jpg",
     "width": 2668,
     "height": 2001,
     "title": "Motorcycle Safety Class was fun :) Portland, OR.",
-    "tags": [
-      "Urban"
-    ]
+    "tags": ["Urban"]
   },
   {
     "filename": "roam.jpg",
     "width": 3860,
     "height": 2895,
     "title": "Summit of Wherever I May Roam. Favorite climb at Smith Rock, OR.",
-    "tags": [
-      "Climbing",
-      "Nature"
-    ]
+    "tags": ["Climbing", "Nature"]
   },
   {
     "filename": "antsonlog.jpg",
     "width": 3024,
     "height": 2268,
     "title": "Rock monkeys escaping the Sun. Rocktown, TN.",
-    "tags": [
-      "Climbing"
-    ]
+    "tags": ["Climbing"]
   },
   {
     "filename": "splash.jpg",
     "width": 4319,
     "height": 3239,
     "title": "Greg teaching us how not to drown in a kayak. Portland, OR.",
-    "tags": [
-      "Whimsical"
-    ]
+    "tags": ["Whimsical"]
   },
   {
     "filename": "rockbum.jpg",
     "width": 4032,
     "height": 3024,
     "title": "A photogenic boulder. Red Rocks, NV. Can't remember who took this one...",
-    "tags": [
-      "Climbing"
-    ]
+    "tags": ["Climbing"]
   },
   {
     "filename": "supercrack.jpg",
     "width": 3779,
     "height": 2834,
     "title": "It's so easy to find incredible pictures here. Supercrack @Indian Creek, UT.",
-    "tags": [
-      "Climbing"
-    ]
+    "tags": ["Climbing"]
   },
   {
     "filename": "rockbums.jpg",
     "width": 4355,
     "height": 3266,
     "title": "Rock monkeys soaking in the sun @Red Rocks, NV.",
-    "tags": [
-      "Portrait",
-      "Climbing"
-    ]
+    "tags": ["Portrait", "Climbing"]
   },
   {
     "filename": "birdie.jpg",
     "width": 4353,
     "height": 3265,
     "title": "Birdie's sweet face hides murderous intent. Portland, OR.",
-    "tags": [
-      "Dog",
-      "Portrait"
-    ]
+    "tags": ["Dog", "Portrait"]
   },
   {
     "filename": "hoodtocoast.jpg",
     "width": 3333,
     "height": 2499,
     "title": "My first and last running race, a relay of 150 miles. Hood to Coast 2022. The Coast, OR.",
-    "tags": [
-      "Scenic"
-    ]
+    "tags": ["Scenic"]
   },
   {
     "filename": "agujo.jpg",
     "width": 2624,
     "height": 1968,
     "title": "Desert spire. Los Agujos, EPC, Mexico.",
-    "tags": [
-      "Climbing",
-      "Scenic"
-    ]
+    "tags": ["Climbing", "Scenic"]
   },
   {
     "filename": "cedar.jpg",
     "width": 1347,
     "height": 1010,
     "title": "Handsome dog. Indian Creek, UT.",
-    "tags": [
-      "Dog",
-      "Portrait"
-    ]
+    "tags": ["Dog", "Portrait"]
   },
   {
     "filename": "yosfire.jpg",
     "width": 4353,
     "height": 3265,
     "title": "That one summer we discovered the entire state of CA was on fire.",
-    "tags": [
-      "Nature"
-    ]
+    "tags": ["Nature"]
   },
   {
     "filename": "halfdome.jpg",
     "width": 3468,
     "height": 2601,
     "title": "I climbed Yosemite for the first time in 2023. 800% worth the wait. Half Dome at sunset.",
-    "tags": [
-      "Climbing",
-      "Scenic"
-    ]
-  },
-  {
-    "filename": "indiancreek.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "Jerrine. Indian Creek, UT.",
-    "tags": ["Climbing", "Scenic", "Nature"]
-  },
-  {
-    "filename": "makeupwedding.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "Lucas and Liz makeup wedding for the COVID absentees. Portland, OR.",
-    "tags": ["Urban"]
-  },
-  {
-    "filename": "lights.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "Rachel. Mt. Hood Ski Bowl, OR.",
-    "tags": ["Skiing"]
-  },
-  {
-    "filename": "meadows.jpg",
-    "width": 3985,
-    "height": 2989,
-    "title": "Mt. Hood sunset.",
-    "tags": ["Skiing", "Nature", "Scenic"]
+    "tags": ["Climbing", "Scenic"]
   }
 ]

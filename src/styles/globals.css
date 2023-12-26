@@ -308,6 +308,18 @@ body, html {
   z-index: 30;
 }
 
+#label0 {
+  top: 90.7%;
+  left: 44.6%;
+  z-index: 30;
+}
+
+#circle0 {
+  top: 91.5%;
+  left: 57%;
+  z-index: 30;
+}
+
 .nose-circle {
   z-index: 50;
   position: absolute;
@@ -328,6 +340,12 @@ body, html {
 
 /* climbers were causing mouseover bugs because of z-index 
 all these and future climbers must have z-index < 10 to keep it under the labels*/
+#climber0 {
+  top: 86%;
+  left: 40.9%;
+  z-index: 1;
+}
+
 #climber1 {
   top: 57%;
   left: 45.9%;
@@ -352,6 +370,12 @@ all these and future climbers must have z-index < 10 to keep it under the labels
   opacity: 0;
   transform: translate(0, 20%);
   transition: all 150ms linear;
+}
+
+@media only screen and (max-width: 767px) {
+  .label {
+    transform: translate(-83%, -10%);
+  }
 }
 
 .climber-active {
@@ -440,5 +464,32 @@ all these and future climbers must have z-index < 10 to keep it under the labels
 }
 
 #flow img {
+  @apply my-10
+}
+
+/*
+*
+*   Climbing Gyms
+*
+*/
+
+#gyms .header1 {
+  font-weight: bold;
+  font-size: 3em;
+  font-style: underline;
+}
+
+#gyms .header2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+#gyms .para {
+  @apply mt-5
+}
+
+#gyms img {
   @apply my-10
 }

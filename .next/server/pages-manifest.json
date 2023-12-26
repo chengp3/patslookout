@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/tech": "pages/tech.js",
-  "/": "pages/index.js",
-  "/climbing": "pages/climbing.js",
-  "/photos": "pages/photos.js"
+  "/portlandgyms": "pages/portlandgyms.js",
+  "/climbing": "pages/climbing.js"
 }

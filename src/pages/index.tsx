@@ -50,6 +50,9 @@ export default function Home() {
           </AnimatedDiv>
           <AnimatedDiv className='my-4'>The picture above is from the summit of Mailbox Peak near Seattle, WA, and inspired the domain name for this site. That's Mount Rainier in the distance! I will incorporate a trip journal and gallery here soon.
           </AnimatedDiv>
+          <AnimatedDiv className='my-4'>Change-log:
+            <li>Dec 24, '23: Fixed climbing page hover bugs. Added more pics (including twice as many dogs). Fixed margins on Bat Wall.</li>
+          </AnimatedDiv>
         </AnimatedContainer>
       </div>
     </main>

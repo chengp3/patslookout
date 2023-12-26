@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/climbing": "pages/climbing.js",
+  "/": "pages/index.js",
   "/batwall": "pages/batwall.js",
-  "/": "pages/index.js"
+  "/climbing": "pages/climbing.js"
 }

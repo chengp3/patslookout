@@ -27,15 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/batwall": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/batwall.js"
-    ],
     "/climbing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/climbing.js"
+    ],
+    "/photos": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/photos.js"
+    ],
+    "/tech": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tech.js"
     ]
   },
   "ampFirstPages": []

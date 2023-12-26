@@ -1,5 +1,5 @@
 
-import { ReactNode, useId } from 'react';
+import { useId } from 'react';
 import { motion } from 'framer-motion'
 import AnimatedContainer from '../components/Animate/AnimatedContainer'
 import AnimatedDiv from '../components/Animate/AnimatedDiv'

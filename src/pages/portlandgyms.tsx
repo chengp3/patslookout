@@ -7,7 +7,7 @@ const Gyms = () => {
       <AnimatedContainer className="flex flex-col w-full saturate-100 drop-shadow-2xl">
         <AnimatedDiv className="header1">Pat's Portland <br />Climbing Gym Guide</AnimatedDiv>
         <AnimatedDiv className="para pb-5 text-sm italic">Last updated 12/26/23</AnimatedDiv> 
-        <AnimatedDiv className="para pb-5 border-b">These are my opinions on Portland climbing gyms that no one asked for. </AnimatedDiv>  
+        <AnimatedDiv className="para pb-5 border-b">My opinions on the Portland climbing gyms that no one asked for! </AnimatedDiv>  
         <AnimatedDiv className="para">My gold standard for gyms is Austin Bouldering Project (I haven't visited MBP or SLBP yet). Spacious, bright, clean, saunas, training boards, good music, great people, absolutely <i>stellar</i> route setting. The only thing I could complain about is the lack of rope climbing.</AnimatedDiv>  
         <AnimatedDiv className="para">Portland apparently has the highest median pizza rating in the country, and I think it's because most of the pizza is at least <i>pretty good</i>. This also applies to the climbing gyms. They're all pretty good!</AnimatedDiv>
         <AnimatedDiv className="para">In my experience gyms tend to fit one of these 3 categories:

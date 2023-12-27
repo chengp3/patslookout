@@ -11,7 +11,7 @@ const Gyms = () => {
         <AnimatedDiv className="para">My gold standard for gyms is Austin Bouldering Project (I haven't visited MBP or SLBP yet). Spacious, bright, clean, saunas, training boards, good music, great people, absolutely <i>stellar</i> route setting. The only thing I could complain about is the lack of rope climbing.</AnimatedDiv>  
         <AnimatedDiv className="para">Portland apparently has the highest median pizza rating in the country, and I think it's because most of the pizza is at least <i>pretty good</i>. This also applies to the climbing gyms. They're all pretty good!</AnimatedDiv>
         <AnimatedDiv className="para">In my experience gyms tend to fit one of these 3 categories:
-        <li><b>Type 1:</b> Large, clean, bright facilities.</li>
+        <li><b>Type 1:</b> Large, clean, bright facilities. "Dating and Fitness" vibes</li>
         <li><b>Type 2:</b> Old, slightly damp and crusty. Usually the routes are most faithful to outdoor routes. Caters to outdoor climbers, likely using the gym to get stronger for their outdoor project or stay in shape over the long PNW gray (iykyk).</li>
         <li><b>Type 3:</b> A bouldering gym, often where students or parents with children hang out. Frequently hosting birthday parties, etc. Usually slightly cheaper.</li>
         </AnimatedDiv>

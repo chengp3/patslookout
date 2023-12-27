@@ -12,7 +12,7 @@ const Gyms = () => {
         <AnimatedDiv className="para">Portland apparently has the highest median pizza rating in the country, and I think it's because most of the pizza is at least <i>pretty good</i>. This also applies to the climbing gyms. They're all pretty good!</AnimatedDiv>
         <AnimatedDiv className="para">In my experience gyms tend to fit one of these 3 categories:
         <li><b>Type 1:</b> Large, clean, bright facilities. "Dating and Fitness" vibes</li>
-        <li><b>Type 2:</b> Old, slightly damp and crusty. Usually the routes are most faithful to outdoor routes. Caters to outdoor climbers, likely using the gym to get stronger for their outdoor project or stay in shape over the long PNW gray (iykyk).</li>
+        <li><b>Type 2:</b> Old, slightly damp and crusty. Usually the routes are most faithful to outdoor routes. Caters to outdoor climbers, likely using the gym to get stronger for their outdoor project or stay in shape over the wet PNW winters.</li>
         <li><b>Type 3:</b> A bouldering gym, often where students or parents with children hang out. Frequently hosting birthday parties, etc. Usually slightly cheaper.</li>
         </AnimatedDiv>
         <AnimatedDiv className="header2">The Portland Gyms</AnimatedDiv>

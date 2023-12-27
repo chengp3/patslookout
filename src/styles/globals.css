@@ -493,3 +493,15 @@ all these and future climbers must have z-index < 10 to keep it under the labels
 #gyms img {
   @apply my-10
 }
+
+#gyms li {
+  @apply my-2
+}
+
+#gyms span {
+  @apply mt-5
+}
+
+#gyms .gym-title {
+  @apply text-amber-600 text-lg md:text-xl;
+}

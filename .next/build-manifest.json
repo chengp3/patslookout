@@ -22,15 +22,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/portlandgyms": [
+    "/climbing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/portlandgyms.js"
-    ],
-    "/tech": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tech.js"
+      "static/chunks/pages/climbing.js"
     ]
   },
   "ampFirstPages": []

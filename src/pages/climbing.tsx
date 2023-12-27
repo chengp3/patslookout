@@ -5,30 +5,55 @@ const links = [0, 1, 2, 3]
 
 export default function Home() {
   useEffect(() => {
+    const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.maxTouchPoints > 0;
     links.forEach((i)=>{
       const label = document.getElementById(`label${i}`)
       const circle = document.getElementById(`circle${i}`)
       const climber = document.getElementById(`climber${i}`)
-      circle?.addEventListener("mouseover", () => {
-        label?.classList.add('nose-label-active')
-        circle?.classList.add('nose-circle-active')
-        climber?.classList.add('climber-active')
-      })
-      circle?.addEventListener("mouseout", () =>{
-        label?.classList.remove('nose-label-active')
-        circle?.classList.remove('nose-circle-active')
-        climber?.classList.remove('climber-active')
-      })
-      label?.addEventListener("mouseover", () => {
-        label?.classList.add('nose-label-active')
-        circle?.classList.add('nose-circle-active')
-        climber?.classList.add('climber-active')
-      })
-      label?.addEventListener("mouseout", () =>{
-        label?.classList.remove('nose-label-active')
-        circle?.classList.remove('nose-circle-active')
-        climber?.classList.remove('climber-active')
-      })
+      if (isMobile) {
+        circle?.addEventListener("touchstart", () => {
+          label?.classList.add('nose-label-active')
+          circle?.classList.add('nose-circle-active')
+          climber?.classList.add('climber-active')
+        })
+        circle?.addEventListener("touchend", () =>{
+          label?.classList.remove('nose-label-active')
+          circle?.classList.remove('nose-circle-active')
+          climber?.classList.remove('climber-active')
+        })
+        label?.addEventListener("touchstart", () => {
+          label?.classList.add('nose-label-active')
+          circle?.classList.add('nose-circle-active')
+          climber?.classList.add('climber-active')
+        })
+        label?.addEventListener("touchend", () =>{
+          label?.classList.remove('nose-label-active')
+          circle?.classList.remove('nose-circle-active')
+          climber?.classList.remove('climber-active')
+        })
+      }
+      else {
+        circle?.addEventListener("mouseover", () => {
+          label?.classList.add('nose-label-active')
+          circle?.classList.add('nose-circle-active')
+          climber?.classList.add('climber-active')
+        })
+        circle?.addEventListener("mouseout", () =>{
+          label?.classList.remove('nose-label-active')
+          circle?.classList.remove('nose-circle-active')
+          climber?.classList.remove('climber-active')
+        })
+        label?.addEventListener("mouseover", () => {
+          label?.classList.add('nose-label-active')
+          circle?.classList.add('nose-circle-active')
+          climber?.classList.add('climber-active')
+        })
+        label?.addEventListener("mouseout", () =>{
+          label?.classList.remove('nose-label-active')
+          circle?.classList.remove('nose-circle-active')
+          climber?.classList.remove('climber-active')
+        })
+      }
     })
   }, [])
 

@@ -403,6 +403,16 @@
     ]
   },
   {
+    "filename": "hamilton.jpg",
+    "width": 3666,
+    "height": 2430,
+    "title": "You can't take climbers anywhere. With Sergio, Hamilton Pool, TX.",
+    "tags": [
+      "Nature",
+      "Hiking"
+    ]
+  },
+  {
     "filename": "monterrey.jpg",
     "width": 3762,
     "height": 2821,
@@ -688,6 +698,15 @@
     ]
   },
   {
+    "filename": "alan.jpg",
+    "width": 1440,
+    "height": 1080,
+    "title": "Insane aesthetic. Alan on Jupiter Crack. @Indian Creek, UT.",
+    "tags": [
+      "Climbing"
+    ]
+  },
+  {
     "filename": "frenchs.jpg",
     "width": 3265,
     "height": 2449,
@@ -759,7 +778,7 @@
     "filename": "lemmon.jpg",
     "width": 4353,
     "height": 3265,
-    "title": "Found another lookout. Mt. Lemmon, AZ. Photo by the enlightened @ryebreadwestby",
+    "title": "Found another lookout. Mt. Lemmon, AZ.",
     "tags": [
       "Climbing",
       "Nature"
@@ -769,7 +788,7 @@
     "filename": "chris.jpg",
     "width": 1440,
     "height": 1080,
-    "title": "Just so hip. Chris @Indian Creek, UT. Photo by the visionary @ryebreadwestby",
+    "title": "Just so hip. Chris @Indian Creek, UT.",
     "tags": [
       "Climbing",
       "Potrait"
@@ -886,6 +905,16 @@
     "height": 2834,
     "title": "It's so easy to find incredible pictures here. Supercrack @Indian Creek, UT.",
     "tags": [
+      "Climbing"
+    ]
+  },
+  {
+    "filename": "rockbums.jpg",
+    "width": 4355,
+    "height": 3266,
+    "title": "Rock monkeys soaking in the sun @Red Rocks, NV.",
+    "tags": [
+      "Portrait",
       "Climbing"
     ]
   },

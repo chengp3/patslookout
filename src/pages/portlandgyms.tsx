@@ -1,5 +1,6 @@
 import AnimatedDiv from '../components/Animate/AnimatedDiv'
 import AnimatedContainer from '../components/Animate/AnimatedContainer'
+import Image from 'next/image'
 
 const Gyms = () => {
   return (
@@ -7,16 +8,23 @@ const Gyms = () => {
       <AnimatedContainer className="flex flex-col w-full saturate-100 drop-shadow-2xl">
         <AnimatedDiv className="header1">Pat's Portland <br />Climbing Gym Guide</AnimatedDiv>
         <AnimatedDiv className="para pb-5 text-sm italic">Last updated 12/26/23</AnimatedDiv> 
-        <AnimatedDiv className="para pb-5 border-b">My opinions on the Portland climbing gyms that no one asked for! </AnimatedDiv>  
+        <AnimatedDiv className="para pb-5 border-b">My opinions on the Portland indoor scene that no one asked for! </AnimatedDiv>  
         <AnimatedDiv className="para">The gold standard for gyms has to be a Bouldering Project (particularly ABP, I haven't been to MBP or SLBP yet). Spacious, bright, clean, saunas, training boards, good music, great people, absolutely <i>stellar</i> setting. The only thing I could complain about is the lack of rope climbing.</AnimatedDiv>  
         <AnimatedDiv className="para">Portland apparently has the highest median pizza rating in the country, and I think it's because most of the pizza is at least <i>pretty good</i>. This also applies to the climbing gyms. They're all pretty good!</AnimatedDiv>
-        <AnimatedDiv className="para">In my experience gyms tend to fit one of these 3 categories:
+        <AnimatedDiv className="para pb-5 border-b">In my experience gyms tend to fit one of these 3 categories:
         <li><b>Type 1:</b> Large, clean, bright facilities. "Dating and Fitness" vibes</li>
         <li><b>Type 2:</b> Old, slightly damp and crusty. Usually the routes are most faithful to outdoor routes. Caters to outdoor climbers, likely using the gym to get stronger for their outdoor project or stay in shape over the wet PNW winters.</li>
         <li><b>Type 3:</b> A bouldering gym, often where students or parents with children hang out. Frequently hosting birthday parties, etc. Usually slightly cheaper.</li>
         </AnimatedDiv>
-        <AnimatedDiv className="header2">The Portland Gyms</AnimatedDiv>
-
+        <AnimatedDiv className="header2 pt-5">The Portland Gyms</AnimatedDiv>
+        <AnimatedDiv className="flex justify-center">
+          <Image src='https://patslookout.s3.us-west-2.amazonaws.com/climbinggyms/pg.jpg'
+            width='400'
+            height='300'
+            alt='kirby bouldering'
+          />
+        </AnimatedDiv>
+        
         <AnimatedDiv className='para'><b className="gym-title"><a href="https://movementgyms.com/portland/">Movement</a></b> used to be called Planet Granite until 2022. This gym is conveniently located in the Pearl and is solidly a Type 1 facility.
         <li>Clean, spacious 3 floors</li>
         <li>Large, open fitness area with everything you could ever need unless you're a fan of those iso machines you find at Lifetime or other big box gyms. Campus board, tiltable spray wall, Kilter, and all sorts of hangboards and pinch blocks. Honestly though, could work out here regularly without ever touching a climbing hold and be happy.</li>

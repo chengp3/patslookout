@@ -18,7 +18,7 @@ const Gyms = () => {
         </AnimatedDiv>
         <AnimatedDiv className="header2 pt-5">The Portland Gyms</AnimatedDiv>
         <AnimatedDiv className="flex justify-center">
-          <Image src='https://patslookout.s3.us-west-2.amazonaws.com/climbinggyms/pg.jpg'
+          <Image src='https://patslookout.s3.us-west-2.amazonaws.com/climbinggyms/pg-small.jpg'
             width='400'
             height='300'
             alt='kirby bouldering'

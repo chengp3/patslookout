@@ -58,7 +58,7 @@ export default function Home() {
         <div id="changelog">
           <AnimatedContainer className='my-4'>
             <AnimatedDiv className='header2'>Change Log</AnimatedDiv>
-            <AnimatedDiv className='change-item'><b>Jan 3, '23:</b> 
+            <AnimatedDiv className='change-item'><b>Jan 3, '24:</b> 
             <br/>The New Kid: <Link className='link' href="/skyhook">Skyhook</Link></AnimatedDiv>
             <AnimatedDiv className='change-item'><b>Dec 27, '23:</b> 
             <br/><Link className='link' href="/portlandgyms">An Unsolicited Guide</Link> to Portland Area Gyms</AnimatedDiv>

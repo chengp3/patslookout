@@ -36,6 +36,46 @@ body, html {
   transform-origin: left;
 }
 
+/*
+*
+*   Index
+*
+*/
+
+/* all screens */
+#index-content {
+  @apply flex flex-row w-full justify-center
+}
+
+#changelog {
+  @apply ml-8 pl-8 border-l
+}
+
+#changelog .header2 {
+  @apply text-xl font-bold pb-6
+}
+
+#changelog .change-item {
+  @apply pb-4
+}
+
+#changelog .link {
+  @apply underline
+}
+
+/* small screens */
+@media (max-width: 768px) {
+  #changelog {
+      @apply ml-0 pl-0 border-t border-l-0 pt-5
+  }
+  #bio {
+    @apply pb-5
+  }
+  #index-content {
+    @apply flex-col
+  }
+}
+
 
 
 /*

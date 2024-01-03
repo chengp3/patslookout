@@ -68,7 +68,7 @@ export default function Home() {
           </a>
           <a href="/construction">
             <div id="circle2" className="nose-circle" />
-            <div id="label2" className="label">Pat's Beta Map</div>
+            <div id="label2" className="label">The Beta Map</div>
           </a>
           <a href="/construction">
             <div id="circle3" className="nose-circle" />

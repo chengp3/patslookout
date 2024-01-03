@@ -47,7 +47,7 @@ export default function Home() {
                 alt="On a clear day..." />
             </motion.a>
             <AnimatedDiv className='my-4'>My name is Patrick 👋🏻 I solve problems with software. This website is part portfolio and part workshop/lab where I host personal projects.</AnimatedDiv>
-            <AnimatedDiv className='my-4'>A little about me. I was born in Austin, Texas, and then discovered a love for mountains; now I currently live in Portland, OR.</AnimatedDiv>
+            <AnimatedDiv className='my-4'>A little about me. I was born in Austin, Texas, and then discovered a love for mountains; I currently live in Portland, OR.</AnimatedDiv>
             <AnimatedDiv className='my-4'>Software-wise, (chronologically) I have been a financial data engineer for the SEC using Hadoop-based pipelines. I've used scikitlearn machine learning algorithms to diagnose leukemia. Lately I have been doing full stack web development for <a href="https://www.galacticpolymath.com"><b>Galactic Polymath</b></a>. Mostly NextJS-based stuff.
             </AnimatedDiv>
             <AnimatedDiv className='my-4'>The picture above is from the summit of Mailbox Peak near Seattle, WA, and inspired the domain name for this site. That's Mount Rainier in the distance! I will incorporate a trip journal and gallery here soon.
@@ -58,10 +58,12 @@ export default function Home() {
         <div id="changelog">
           <AnimatedContainer className='my-4'>
             <AnimatedDiv className='header2'>Change Log</AnimatedDiv>
+            <AnimatedDiv className='change-item'><b>Jan 3, '23:</b> 
+            <br/>The New Kid: <Link className='link' href="/skyhook">Skyhook</Link></AnimatedDiv>
             <AnimatedDiv className='change-item'><b>Dec 27, '23:</b> 
             <br/><Link className='link' href="/portlandgyms">An Unsolicited Guide</Link> to Portland Area Gyms</AnimatedDiv>
             <AnimatedDiv className='change-item'><b>Dec 24, '23:</b> 
-            <br/>100% More Dog <Link className='link' href="/photos">Photos</Link></AnimatedDiv>
+            <br/>200% More Dog <Link className='link' href="/photos">Photos</Link></AnimatedDiv>
           </AnimatedContainer>
         </div>
       </div>

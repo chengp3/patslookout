@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/photos": "pages/photos.js",
   "/": "pages/index.js",
-  "/portlandgyms": "pages/portlandgyms.js",
   "/skyhook": "pages/skyhook.js"
 }

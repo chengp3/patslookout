@@ -17,7 +17,7 @@ const Gyms = () => {
         <li><b>Type 3:</b> A bouldering gym, often where students or parents with children hang out. Frequently hosting birthday parties, etc. Usually slightly cheaper.</li>
         </AnimatedDiv>
         <AnimatedDiv className="header2 pt-5">The Portland Gyms</AnimatedDiv>
-        <AnimatedDiv className="flex justify-center">
+        <AnimatedDiv className="flex justify-center gym-image">
           <Image src='https://patslookout.s3.us-west-2.amazonaws.com/climbinggyms/pg-small.jpg'
             width='400'
             height='300'

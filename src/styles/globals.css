@@ -533,7 +533,7 @@ all these and future climbers must have z-index < 10 to keep it under the labels
   @apply mt-5
 }
 
-#gyms img {
+#gyms .gym-image {
   @apply my-10
 }
 
@@ -541,10 +541,14 @@ all these and future climbers must have z-index < 10 to keep it under the labels
   @apply my-2
 }
 
-#gyms span {
-  @apply mt-5
-}
-
 #gyms .gym-title {
   @apply text-amber-600 text-lg md:text-xl;
+}
+
+#gyms .sky-link {
+  @apply underline
+}
+
+#gyms .sky-link:hover {
+  @apply text-amber-600 transition
 }

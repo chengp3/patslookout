@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/skyhook": "pages/skyhook.js"
+  "/portlandgyms": "pages/portlandgyms.js",
+  "/climbing": "pages/climbing.js"
 }

@@ -9,7 +9,7 @@ const Flow = () => {
           <div className="text-3xl font-bold my-4 mr-3">Flow Cytometry</div>
           <span className="font-normal italic my-4">by Patrick Cheng</span>
         </AnimatedDiv>
-        <AnimatedDiv className="mt-2 text-sm italic">Two thousand years ago, Aristotle thought disease arose from imbalance of blood, phlegm, bile. Computers were invented a few generations ago, and now anyone can use out-of-the-box machine learning algorithms to diagnose leukemia. In this article I'll explain how.</AnimatedDiv>
+        <AnimatedDiv className="mt-2 text-sm italic">Two thousand years ago, Aristotle theorized that disease came from an imbalance of blood, phlegm, bile. We've come a long way. Then computers were invented, and now it seems anyone can use an out-of-the-box machine learning algorithm to diagnose leukemia. In this article I'll explain how.</AnimatedDiv>
         <AnimatedDiv className="head">What are Leukemia and Flow Cytometry?</AnimatedDiv>
         <AnimatedDiv className="para">Our immune cells are collectively called “white blood cells” or WBCs. Most are normal but some mutate and become cancerous. In these cases, not only do they not do their jobs properly but they also take resources from normal cells which in turn can't do their jobs either. Doctors diagnose leukemia with various laboratory tests, and among the most accurate is a test called <i>flow cytometry</i>, which measures protein levels of all the cells in a blood sample. The protein levels can be thought of as the different traits of a person.</AnimatedDiv>
         <AnimatedDiv className="para">ELI5: If you were to measure a firefighter, a soldier, and a ballerina... firefighters' and soldiers' boots are much heavier than ballerinas' pointe shoes. Ballerinas don't wear helmets. Firefighters carry hose but soldiers don't. Who wears no helmet or hose and light shoes? Helmet and no hose?</AnimatedDiv>
@@ -87,7 +87,7 @@ const Flow = () => {
         <AnimatedDiv className="para">Thanks for reading! Hopefully you are as optimistic as I am that concepts like these will improve healthcare across the board.</AnimatedDiv>
 
 
-        <h4>Bonus Nerdistry: What is Support Vector Machine?</h4>
+        <AnimatedDiv className="head">Bonus Nerdistry: What is Support Vector Machine?</AnimatedDiv>
         <AnimatedDiv className="para">For a set of two binarily labeled sets of data, there exists a “hyperplane” in between the sets that separates the two. For simplicity, we can consider two dimensional data first, for which the hyperplane is a line. Surrounding the line on either side are two halves of the boundary zone that contains no data. There are many possible lines to choose (in most cases an infinite number), but the goal of the support vector machine is to find the line for which this boundary is as wide as possible.</AnimatedDiv>
         <AnimatedDiv className="w-full flex justify-center">
           <img className="border-2 border-black max-w-sm md:max-w-xl" src="https://patslookout.s3.us-west-2.amazonaws.com/flow/figure+12.png" />

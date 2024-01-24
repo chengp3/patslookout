@@ -9,7 +9,7 @@ const BatWall = () => {
           <div className="header1">Bat Wall 🦇 Perma-Draws</div>
           <div className="header2">Background</div>
             <p>In the Spring of 2023 I and several other regular Bat Wall climbers were talking about our many Bat Wall projects when one of us said, "Wouldn't it be nice if there were more permas on them?" What followed was a lot of "huh, why not?" and an informal survey that resulted in overwhelming support. </p>  
-            <p className="mt-2">I started a fundraiser, about a dozen people donated enough to blanket the wall in perma-draws. In an effort not to go overboard, here are some general thoughts on the permas that the fundraiser purchased at Bat Wall. It can be noted there were about twice as many permas up as were placed from this recent push. </p>
+            <p className="mt-2">I started a fundraiser, about a dozen people donated enough to blanket the wall in perma-draws. In an effort not to go overboard, here are some general though ts on the permas that the fundraiser purchased at Bat Wall. It can be noted there were about twice as many permas up as were placed from this recent push. </p>
             <p className="mt-2">Since the new ones went up, I've made an effort to ask how people feel about them. I'd estimate 60% overwhelming positive, 20% fairly positive, 15% it was fine before but not negative (indifferent or neutral), and 5% negative (reason stated that the Dracula draws would increase traffic and therefore increase polish on the route).</p>
           <div className="header2">Where are they going?</div>
             <ul>

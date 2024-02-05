@@ -580,16 +580,6 @@
     ]
   },
   {
-    "filename": "rrdanna.jpg",
-    "width": 3024,
-    "height": 2268,
-    "title": "Crag dog. Red Rocks, Nevada.",
-    "tags": [
-      "Climbing",
-      "Portrait"
-    ]
-  },
-  {
     "filename": "frenchs.jpg",
     "width": 3265,
     "height": 2449,
@@ -625,16 +615,6 @@
       "Hiking",
       "Nature",
       "Whimsical"
-    ]
-  },
-  {
-    "filename": "indiancreekdog.jpg",
-    "width": 3024,
-    "height": 2268,
-    "title": "Crag dog. Indian Creek, UT.",
-    "tags": [
-      "Dog",
-      "Portrait"
     ]
   },
   {
@@ -746,15 +726,6 @@
     ]
   },
   {
-    "filename": "antsonlog.jpg",
-    "width": 3024,
-    "height": 2268,
-    "title": "Rock monkeys escaping the Sun. Rocktown, TN.",
-    "tags": [
-      "Climbing"
-    ]
-  },
-  {
     "filename": "splash.jpg",
     "width": 4319,
     "height": 3239,
@@ -843,12 +814,5 @@
     "height": 3024,
     "title": "Lucas and Liz makeup wedding for the COVID absentees. Portland, OR.",
     "tags": ["Urban"]
-  },
-  {
-    "filename": "lights.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "Rachel. Mt. Hood Ski Bowl, OR.",
-    "tags": ["Skiing"]
   }
 ]

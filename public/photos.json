@@ -201,16 +201,6 @@
     ]
   },
   {
-    "filename": "epcoranges.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "Oranges. Hidalgo, Nuevo Leon, Mexico.",
-    "tags": [
-      "Urban",
-      "Whimsical"
-    ]
-  },
-  {
     "filename": "tympanogos.jpg",
     "width": 8499,
     "height": 1882,
@@ -312,15 +302,6 @@
     ]
   },
   {
-    "filename": "sandstone.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "I will always love sandstone. The touch, feel, smell... haven't tasted it yet. Red Rocks, NV.",
-    "tags": [
-      "Climbing"
-    ]
-  },
-  {
     "filename": "sfmoma.jpg",
     "width": 4032,
     "height": 3024,
@@ -338,18 +319,6 @@
     "tags": [
       "Nature",
       "Scenic",
-      "Hiking"
-    ]
-  },
-  {
-    "filename": "pmrp.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "Incredible Fall colors. Muir Valley, RRG, KY.",
-    "tags": [
-      "Nature",
-      "Scenic",
-      "Climbing",
       "Hiking"
     ]
   },
@@ -534,25 +503,6 @@
     ]
   },
   {
-    "filename": "wilson.jpg",
-    "width": 2956,
-    "height": 3072,
-    "title": "Wilson Arch, UT.",
-    "tags": [
-      "Hiking",
-      "Nature"
-    ]
-  },
-  {
-    "filename": "bowfishing.jpg",
-    "width": 5312,
-    "height": 2988,
-    "title": "The boys bowfishing gar. @Austin, TX.",
-    "tags": [
-      "Whimsical"
-    ]
-  },
-  {
     "filename": "hueco.jpg",
     "width": 3024,
     "height": 4032,
@@ -640,16 +590,6 @@
     ]
   },
   {
-    "filename": "rentals.jpg",
-    "width": 3625,
-    "height": 2719,
-    "title": "Rental skis. Managed by yours truly one winter. Snoqualmie, WA.",
-    "tags": [
-      "Whimsical",
-      "Skiing"
-    ]
-  },
-  {
     "filename": "frenchs.jpg",
     "width": 3265,
     "height": 2449,
@@ -673,16 +613,6 @@
     "height": 2268,
     "title": "John :) 32 routes for his 32nd bday. Red River Gorge, KY.",
     "tags": [
-      "Portrait"
-    ]
-  },
-  {
-    "filename": "babyclimb.jpg",
-    "width": 434,
-    "height": 326,
-    "title": "Always looking for things to climb on. Austin, TX.",
-    "tags": [
-      "Climbing",
       "Portrait"
     ]
   },
@@ -891,15 +821,6 @@
     ]
   },
   {
-    "filename": "yosfire.jpg",
-    "width": 4353,
-    "height": 3265,
-    "title": "That one summer we discovered the entire state of CA was on fire.",
-    "tags": [
-      "Nature"
-    ]
-  },
-  {
     "filename": "halfdome.jpg",
     "width": 3468,
     "height": 2601,
@@ -929,12 +850,5 @@
     "height": 3024,
     "title": "Rachel. Mt. Hood Ski Bowl, OR.",
     "tags": ["Skiing"]
-  },
-  {
-    "filename": "meadows.jpg",
-    "width": 3985,
-    "height": 2989,
-    "title": "Mt. Hood sunset.",
-    "tags": ["Skiing", "Nature", "Scenic"]
   }
 ]

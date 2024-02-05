@@ -38,15 +38,6 @@
     ]
   },
   {
-    "filename": "seattle.jpg",
-    "width": 2168,
-    "height": 1625,
-    "title": "Monkeying around. Seattle, WA.",
-    "tags": [
-      "Urban"
-    ]
-  },
-  {
     "filename": "lance.jpg",
     "width": 4032,
     "height": 3024,
@@ -70,15 +61,6 @@
     "width": 4032,
     "height": 3024,
     "title": "Blue Mountain greenery, Red River Gorge, Kentucky",
-    "tags": [
-      "Nature"
-    ]
-  },
-  {
-    "filename": "squamishriver.jpg",
-    "width": 4354,
-    "height": 3265,
-    "title": "Chek River, Squamish, BC, Canada.",
     "tags": [
       "Nature"
     ]
@@ -113,15 +95,6 @@
     ]
   },
   {
-    "filename": "willamette.jpg",
-    "width": 3774,
-    "height": 2830,
-    "title": "Wine Country. Willamette Valley, OR.",
-    "tags": [
-      "Nature"
-    ]
-  },
-  {
     "filename": "kirby.jpg",
     "width": 3072,
     "height": 4080,
@@ -146,17 +119,6 @@
     "title": "Slot canyons with Sergio and Miska. Antelope Canyon, UT.",
     "tags": [
       "Nature"
-    ]
-  },
-  {
-    "filename": "epcsunset.jpg",
-    "width": 4032,
-    "height": 3024,
-    "title": "An incredible desert sunset after finishing Time Wave Zero. EPC, Mexico.",
-    "tags": [
-      "Nature",
-      "Climbing",
-      "Scenic"
     ]
   },
   {

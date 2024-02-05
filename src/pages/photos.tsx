@@ -65,7 +65,7 @@ const Photos: React.FC = () => {
       </ModalContainer>
       <div className="flex flex-col items-center mb-5">
         <div id="postcards" className="font-bold text-6xl">Postcards</div>
-        <div>(from my life)</div>
+        <div>(photography from my life)</div>
       </div>
       <div id="tags" className='flex flex-wrap justify-center w-screen md:max-w-3xl'>
         {allTags.map((tag, index) => (

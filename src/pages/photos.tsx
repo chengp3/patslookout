@@ -96,7 +96,7 @@ const Photos: React.FC = () => {
                 filter: "grayscale(0%)",
                 scale: 1,
                 transition: {
-                  duration: .1,
+                  duration: .05,
                   ease: "linear"
                 }
               }}

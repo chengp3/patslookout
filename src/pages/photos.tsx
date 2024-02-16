@@ -94,7 +94,7 @@ const Photos: React.FC = () => {
               exit={{opacity: 0}}
               whileHover={{ 
                 filter: "grayscale(0%)",
-                scale: 1.1,
+                scale: 1,
                 transition: {
                   duration: .1,
                   ease: "linear"

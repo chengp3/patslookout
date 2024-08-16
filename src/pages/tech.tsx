@@ -35,8 +35,7 @@ export default function Home() {
                   <div>AWS</div>
                 </div>
               </div>
-              <div className="mt-2 mx-6 text-xs w-60 text-center italic">A price trend analysis app/dashboard. I took one of
-                the algorithms I use to trade futures and made a software flower. <a href="www.github.com/chengp3/trendy">(<u>git</u>)</a>
+              <div className="mt-2 mx-6 text-xs w-60 text-center italic">A price trend analysis app/dashboard. A software flower employing a trading algorithm. <a href="www.github.com/chengp3/trendy">(<u>git</u>)</a>
               </div>
             </a>
           </div>
@@ -64,7 +63,7 @@ export default function Home() {
                   <div>flask</div>
                 </div>
               </div>
-              <div className="mt-2 mx-6 text-xs w-60 text-center italic">Climbing and nerding out, what a combo. A personal climbing grade dashboard. This one might take me a sec to port (under construction)</div>
+              <div className="mt-2 mx-6 text-xs w-60 text-center italic">A personal climbing grade dashboard. This one is in the process of being ported (under construction)</div>
             </div>
           </div>
           <div className="project-container">

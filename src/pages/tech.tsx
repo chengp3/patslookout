@@ -20,7 +20,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="mt-2 mx-6 text-xs w-60 text-center italic">An interactive simulation exploring social media dynamics.
-                Traits like agreeableness, unfriending, and influenceability determine the makeup of these virtual social groups. <a href="www.github.com/chengp3/echo">(<u>git</u>)</a>
+                Traits like agreeableness, unfriending, and influenceability determine the makeup of these virtual social groups. <a href="https://www.github.com/chengp3/echo">(<u>git</u>)</a>
               </div>
             </a>
           </div>
@@ -35,7 +35,7 @@ export default function Home() {
                   <div>AWS</div>
                 </div>
               </div>
-              <div className="mt-2 mx-6 text-xs w-60 text-center italic">A price trend analysis app/dashboard. A software flower employing a trading algorithm. <a href="www.github.com/chengp3/trendy">(<u>git</u>)</a>
+              <div className="mt-2 mx-6 text-xs w-60 text-center italic">A price trend analysis app/dashboard. A software flower employing a trading algorithm. <a href="https://www.github.com/chengp3/trendy">(<u>git</u>)</a>
               </div>
             </a>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="mt-2 mx-6 text-xs w-60 text-center italic transition">An article exploring machine learning (SVM) to diagnose blood cancer from flow cytometry readings.
-                Medicine as a field seems to be ripe for machine learning... <a href="www.github.com/chengp3/flow">(<u>git</u>)</a></div>
+                Medicine as a field seems to be ripe for machine learning... <a href="https://www.github.com/chengp3/flow">(<u>git</u>)</a></div>
             </a>
           </div>
           <div className="project-container">
